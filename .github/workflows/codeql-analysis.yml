@@ -4,6 +4,11 @@ on:
   push:
     paths:
       - src/**
+      - stories/**
+      - features/**
+      - package.json
+      - package-lock.json
+      - cucumber.js
       - .github/workflows/codeql-analysis.yml
 
 jobs:

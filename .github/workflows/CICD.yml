@@ -4,6 +4,7 @@ on:
     paths:
       - src/**
       - stories/**
+      - features/**
       - package.json
       - package-lock.json
       - cucumber.js
