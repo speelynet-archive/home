@@ -1,3 +1,4 @@
+import "../src/index.js";
 import {themes} from "@storybook/theming";
 import {prefersDark} from "storybook-dark-mode/dist/Tool";
 
@@ -13,3 +14,15 @@ export const parameters = {
     theme: prefersDark.matches ? themes.dark : themes.light
   }
 };
+
+export const decorators = [
+  (Story) => `
+      <style>
+        * {
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+      </style>
+      ${Story()}
+    `
+];
