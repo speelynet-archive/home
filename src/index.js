@@ -1,1 +1,1 @@
-import ("./subheading.js");
+import("./home/components/subheading.js");

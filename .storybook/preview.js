@@ -1,4 +1,4 @@
-import "../src/index.js";
+import "../src";
 import {themes} from "@storybook/theming";
 import {prefersDark} from "storybook-dark-mode/dist/Tool";
 
